@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 namespace WebApp.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/v1/[controller]")]
     public class DemoController : ControllerBase
     {
         private readonly IConfiguration _configuration;
